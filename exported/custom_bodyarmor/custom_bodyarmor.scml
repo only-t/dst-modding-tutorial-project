@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0" name="swap_body">
+        <file id="0" name="swap_body/swap_body-0.png" width="89" height="124" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="swap_body/swap_body-1.png" width="89" height="124" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="swap_body/swap_body-2.png" width="86" height="123" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="swap_body/swap_body-3.png" width="87" height="124" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="swap_body/swap_body-4.png" width="83" height="123" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="5" name="swap_body/swap_body-5.png" width="86" height="124" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="6" name="swap_body/swap_body-6.png" width="87" height="108" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="7" name="swap_body/swap_body-7.png" width="87" height="107" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="8" name="swap_body/swap_body-8.png" width="89" height="108" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="9" name="swap_body/swap_body-10.png" width="16" height="16" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="10" name="swap_body/swap_body-9.png" width="16" height="16" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="11" name="swap_body/swap_body-11.png" width="84" height="91" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="12" name="swap_body/swap_body-12.png" width="16" height="16" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="13" name="swap_body/swap_body-13.png" width="169" height="151" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="custom_bodyarmor">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="swap_body-13">
+                <key id="0" spin="0">
+                    <object folder="0" file="13"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

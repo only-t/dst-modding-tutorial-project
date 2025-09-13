@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0" name="swap_hat">
+        <file id="0" name="swap_hat/swap_hat-0.png" width="226" height="228" pivot_x="0.51958" pivot_y="-0.313871"/>
+        <file id="1" name="swap_hat/swap_hat-1.png" width="210" height="233" pivot_x="0.699911" pivot_y="-0.167261"/>
+        <file id="2" name="swap_hat/swap_hat-2.png" width="213" height="233" pivot_x="0.517254" pivot_y="-0.171674"/>
+        <file id="3" name="swap_hat/swap_hat-3.png" width="271" height="260" pivot_x="0.549815" pivot_y="0.238462"/>
+    </folder>
+    <entity id="0" name="custom_hat">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0"/>
+            </mainline>
+        </animation>
+    </entity>
+</spriter_data>
